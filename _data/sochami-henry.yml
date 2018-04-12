@@ -1,0 +1,63 @@
+interviewee:
+  name: Henry Sochami
+  birthplace: Thessaloníki, Greece
+  nationality: Greece
+  gender: male
+  locations:
+    invasion:
+      location: unknown
+    internments:
+    - Auschwitz
+    - Buchenwald
+    liberation:
+      date: '1945-04-11'
+      location: Weimar, Germany
+      by: United States
+  commentary:
+    author: ''
+    text: ''
+  legacy_identifier: sochamiH
+interview:
+  recording:
+    date: '1946-08-12'
+    location: Paris, France
+    languages:
+    - es
+    duration: '15:06'
+    spools:
+    - 9-43A
+    audio:
+      file: sochamiH_9-43A_SLP.mp3
+      mime-type: audio/mp3
+  transcript:
+    language: es
+    interview:
+    - who: David Boder
+      start: '1.087'
+      u: "[In English] This is Spool 43 taken from Mr. Henry Sochami, 38 years old,
+        tattoo number 109752 triangle, meaning Jewish, a tattoo of the camp of Auschwitz.
+        He will speak Spanish, he can speak German but it's rather . . . slow, and
+        we prefer to use the language he can speak most fluently."
+    - who: David Boder
+      start: '36.162'
+      u: "[In Spanish] Ehh . . . Señor Sochami, eh . . . dígame dónde nació Ud. y
+        de qué nacionalidad es Ud."
+    - who: Henry Sochami
+      start: '44.492'
+      u: Es nacionalidad griega.
+  translation:
+    language: en
+    interview:
+    - who: David Boder
+      start: '1.087'
+      u: " [In English] This is Spool 43 taken from Mr. Henry Sochami, 38 years old,
+        tattoo number 109752 triangle, meaning Jewish, a tattoo of the camp of Auschwitz.
+        He will speak Spanish, he can speak German but it's rather . . . slow, and
+        we prefer to use the language he can speak most fluently."
+    - who: David Boder
+      start: '36.162'
+      u: "[In Spanish] Er . . . Mr. Sochami, tell me where you were born, and what
+        your nationality is."
+    - who: Henry Sochami
+      start: '44.492'
+      u: I am Greek.
