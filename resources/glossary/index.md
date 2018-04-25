@@ -23,15 +23,19 @@ title: Glossary of Terms
 **Canada.** An area of Birkenau where the possessions of newly arrived inmates were stored. It was so named because Canada was thought to be a country of great riches. The items were sorted and sent back to Germany, although some were stolen by SS guards.
 
 **commandant.** A commander of a Nazi camp. In the death camps the commandant was required to witness every gassing carried out through a peephole, and supervise both the preparations and the aftermath.
+
 **DP.** Displaced Person, or refugee.
+
 **Eretz Yisroeil.** Hebrew for the Land of Israel.
 
 **folk-german (Volkdeutsche).** The Nazi term for ethnic Germans living outside of Germany. The Nazis made every effort to win the support of these German minorities.
+
 **fuehrer.** The German word for “leader.”
 
 **gendarme.** Policeman.
 
 **General Government.** The Nazi-ruled state in central and eastern Poland following the defeat and dismemberment of Poland in 1939.
+
 **Gestapo.** Contraction of Geheime Staatspolizei: "Secret State Police." The German internal security police (secret police) under the Nazis, headed by SS chief Heinrich Himmler. Organized in 1933 to protect the regime from political opposition. Often used by Holocaust victims generically to refer to any German police or military unit.
 
 **ghetto.** A Yiddish word referring to a walled section of a city in which Jews were required to live during the Middle Ages. The concept was revived by the Nazi regime as part of the "Final Solution" to the "Jewish Question."
@@ -39,8 +43,10 @@ title: Glossary of Terms
 **Hachshara.** A training course for would-be immigrants to Palestine, usually conducted in Europe but sometimes upon arrival in Palestine. The course prepared its students for life in a Kibbutz (a communal agricultural settlement) and would have involved forging bonds of group solidarity via instruction in Hebrew and agricultural training.
 
 **kibbutz.** A collective farm or settlement in modern Israel. (Plural Kibbutzim.)
-KZ. Abbreviation for “konzentrationslager” (concentration camp).
-lager. German military term for camp or encampment. In the Nazi system these could include transit, labor, concentration, and death camps.
+
+**KZ.** Abbreviation for “konzentrationslager” (concentration camp).
+
+**lager.** German military term for camp or encampment. In the Nazi system these could include transit, labor, concentration, and death camps.
 
 **Maquis.** The predominantly rural guerrilla bands of the French Resistance.
 
@@ -51,14 +57,18 @@ lager. German military term for camp or encampment. In the Nazi system these cou
 **ORT.** Acronym for the Russian, Society for Handicrafts and Agricultural Work. Founded in 1880 by Russian Jews, its goal was to promote and develop vocational training in skilled trades and agriculture among Jews. Following the Holocaust, ORT ran programs in Displaced Persons camps and in western European countries, especially in France.
 
 **OSE.** Acronym for the Oeuvre de Secours aux Enfants, a French Jewish humanitarian organization that saved hundreds of Jewish refugee children in Vichy France during World War II.
-partisans. Paramilitary forces engaged behind the front lines during World War II.
-Pesach. Known as “Passover” in English, this is a major Jewish spring festival, commemorating the Exodus from Egypt over 3,000 years ago.
+
+**partisans.** Paramilitary forces engaged behind the front lines during World War II.
+
+**Pesach.** Known as “Passover” in English, this is a major Jewish spring festival, commemorating the Exodus from Egypt over 3,000 years ago.
 
 **pogrom.** A form of riot or mob violence directed against a particular group, whether ethnic, religious, or other, and characterized by the killing and destruction of their homes, businesses, and religious centers. The term was originally used to denote extensive violence against Jews.
-Revier. The hospital ward for the concentration camp inmates.
+
+**Revier.** The hospital ward for the concentration camp inmates.
 
 **SS.** Acronym for the German Schutzstaffel (“Protective Echelon”), a major Nazi organization. It grew from a small paramilitary unit to a powerful force that served as Hitler's "Praetorian Guard," the Nazi Party's "Shield Squadron" and a force that, fielding almost a million men (both on the front lines and as political police), managed to exert as much political influence as the German Army. Built upon the Nazi racial ideology, the SS, under Heinrich Himmler's command, was responsible for many (and most of the worst) of the crimes against humanity perpetrated by the Nazis during World War II.
-trusty. Similar to a capo or blockälteste. A prisoner in the camps who held some authority over other prisoners, and in return received special treatment. These were often convicts.
+
+**trusty.** Similar to a capo or blockälteste. A prisoner in the camps who held some authority over other prisoners, and in return received special treatment. These were often convicts.
 
 **UNRRA.** Acronym for the United Nations Relief and Rehabilitation Administration. Established in 1943, its principal executive post was held by a representative of the United States, which supplied forty percent of its budget. Among its chief duties was the repatriation of displaced persons—when the war ended, UNRRA had to cope with the task of caring for millions of displaced persons and refugees.
 
