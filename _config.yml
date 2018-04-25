@@ -1,0 +1,24 @@
+# Site Settings
+title: Voices of the Holocaust
+email: voices@iit.edu
+description: "Voices of the Holocaust is a collection of interviews with Holocaust survivors and other displaced persons conducted by Dr. David P. Boder in Europe in 1946. The collection, curated by the Paul V. Galvin Library at Illinois Institute of Technology, features the text and audio of the interviews as well as maps, and glossaries."
+baseurl: ""
+url: ""
+
+#Build Settings
+markdown: kramdown
+permalink: pretty 
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+nav_pages:
+  -index.md
+  -interviews.md
+  -maps.md
+  -research.md
+  -about.md
