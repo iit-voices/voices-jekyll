@@ -7,85 +7,75 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
   <body>
-    <div id="page">
-      <header class="vcard" id="header">
-
-        </div>
-        <nav id="navigation">
+    <header id="header">
+      <nav id="navigation">
+        <ul>
+          <li>
+            <a href="/interviews/">Interviews</a>
+          </li>
+          <li>
+            <a href="/maps/">Maps</a>
+          </li>
+          <li>
+            <a href="/resources/">Resources</a>
+          </li>
           <ul>
             <li>
-              <a href="/interviews/">Interviews</a>
+              <a href="/resources/camps/">List of Camps and Ghettos</a>
             </li>
             <li>
-              <a href="/maps/">Maps</a>
+              <a href="/resources/glossary/">Glossary</a>
             </li>
             <li>
-              <a href="/resources/">Resources</a>
+              <a href="/resources/bibliography/">Bibliography</a>
             </li>
-            <ul>
-              <li>
-                <a href="/resources/camps/">List of Camps and Ghettos</a>
-              </li>
-              <li>
-                <a href="/resources/glossary/">Glossary</a>
-              </li>
-              <li>
-                <a href="/resources/bibliography/">Bibliography</a>
-              </li>
-              <li>
-                <a href="/resources/websites/">Websites</a>
-              </li>
-            </ul>
             <li>
-              <a href="/about/">About</a>
-              <ul>
-                <li>
-                  <a href="/about/david-boder/">David Boder</a>
-                </li>
-                <li>
-                  <a href="/about/voices-project/">Voices Project</a>
-                </li>
-                <li>
-                  <a href="/about/contributors/">Contributors</a>
-                </li>
-                <li>
-                  <a href="/about/news/">In the News</a>
-                </li>
-                <li>
-                  <a href="/about/contact/">Contact</a>
-                </li>
-              </ul>
+              <a href="/resources/websites/">Websites</a>
             </li>
           </ul>
-        </nav>
-      </header>
-      <div id="content">
-        <article class="{{ page.classes }}">
-          <header>
-            <h1 class="wayfinder">{{page.title}}</h1>
-            {% if page.description %}<h2 class="hero">{{page.description}}</h2>{% endif %}
-          </header>
-          <div class="section">
-            <div class="main">
-              {{ content }}
-            </div>
-            <aside>
-            </aside>
-          </div>
-        </article>
-      </div>
-      <footer id="footer">
-        <div class="contact">
-            <span class="copyright">
-                copyright &#169; 2009
-                <a href="http://library.iit.edu/" target="_blank" class="iit_link">Paul V. Galvin Library</a>,
-                <a href="http://iit.edu/" target="_blank" class="iit_link">Illinois Institute of Technology</a>
-            </span>
-            <span class="address">
-                33 W. 33rd St., Chicago, IL 60616
-            </span>
+          <li>
+            <a href="/about/">About</a>
+            <ul>
+              <li>
+                <a href="/about/david-boder/">David Boder</a>
+              </li>
+              <li>
+                <a href="/about/voices-project/">Voices Project</a>
+              </li>
+              <li>
+                <a href="/about/contributors/">Contributors</a>
+              </li>
+              <li>
+                <a href="/about/news/">In the News</a>
+              </li>
+              <li>
+                <a href="/about/contact/">Contact</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="content">
+      <article class="{{ page.classes }}">
+        <header>
+          <h2>{{page.title}}</h1>
+          {% if page.description %}<h2 p="hero">{{page.description}}</h2>{% endif %}
+        </header>
+        <div class="content">
+          {{ content }}
         </div>
-      </footer>
-    </div>
+      </article>
+    </main>
+    <footer id="footer">
+      <small class="copyright">
+        Copyright &#169; 2009–2018
+        <a href="http://library.iit.edu/">Paul V. Galvin Library</a>,
+        <a href="http://iit.edu/">Illinois Institute of Technology</a>
+      </span>
+      <address>
+        33 W. 33rd St., Chicago, IL 60616
+      </address>
+    </footer>
   </body>
 </html>
