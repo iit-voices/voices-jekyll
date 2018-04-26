@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <title>Voices of the Holocaust: {{ page.title }}</title>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-  </head>
-  <body>
-    <header id="header">
-      <nav id="navigation">
-        <ul>
-          <li>
-            <a href="/interviews/">Interviews</a>
-          </li>
-          <li>
-            <a href="/maps/">Maps</a>
-          </li>
-          <li>
-            <a href="/resources/">Resources</a>
-          </li>
-          <ul>
-            <li>
-              <a href="/resources/camps/">List of Camps and Ghettos</a>
-            </li>
-            <li>
-              <a href="/resources/glossary/">Glossary</a>
-            </li>
-            <li>
-              <a href="/resources/bibliography/">Bibliography</a>
-            </li>
-            <li>
-              <a href="/resources/websites/">Websites</a>
-            </li>
-          </ul>
-          <li>
-            <a href="/about/">About</a>
-            <ul>
-              <li>
-                <a href="/about/david-boder/">David Boder</a>
-              </li>
-              <li>
-                <a href="/about/voices-project/">Voices Project</a>
-              </li>
-              <li>
-                <a href="/about/contributors/">Contributors</a>
-              </li>
-              <li>
-                <a href="/about/news/">In the News</a>
-              </li>
-              <li>
-                <a href="/about/contact/">Contact</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
+{% include header.html %}
     <main id="content">
       <article class="{{ page.classes }}">
         <header>
@@ -67,15 +10,4 @@
         </div>
       </article>
     </main>
-    <footer id="footer">
-      <small class="copyright">
-        Copyright &#169; 2009–2018
-        <a href="http://library.iit.edu/">Paul V. Galvin Library</a>,
-        <a href="http://iit.edu/">Illinois Institute of Technology</a>
-      </span>
-      <address>
-        33 W. 33rd St., Chicago, IL 60616
-      </address>
-    </footer>
-  </body>
-</html>
+{% include footer.html %}
