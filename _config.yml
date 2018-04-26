@@ -15,6 +15,11 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: "api"
+    values:
+      layout: "basic"
 
 nav_pages:
   -index.md

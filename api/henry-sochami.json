@@ -1,0 +1,5 @@
+---
+permalink: /api/henry-sochami.json
+---
+
+{{ site.data.records.henry-sochami | jsonify }}
