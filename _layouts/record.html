@@ -20,7 +20,7 @@
             <h2>Transcript</h2>
             <ol class="transcript" lang="{{transcript.language}}">
             {% for line in transcript.interview %}
-              <li data-start="{{line.start}}" data-end="{{line.end}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
+              <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
             {% endfor %}
             </ol>
           {% endif %}
@@ -30,7 +30,7 @@
             <h2>Translation</h2>
             <ol class="translation" lang="{{translation.language}}">
             {% for line in translation.interview %}
-              <li data-start="{{line.start}}" data-end="{{line.end}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
+              <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
             {% endfor %}
             </ol>
           {% endif %}
