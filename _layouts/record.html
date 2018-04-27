@@ -17,6 +17,8 @@
 
           {% assign recording = site.data.records[page.rec_id].recording %}
 
+          <audio src="/assets/mp3/{{ recording.audio.file}}" controls="controls"></audio>
+
           {% assign transcript = recording.transcript %}
           {% if transcript.interview %}
             <h2>Transcript</h2>
