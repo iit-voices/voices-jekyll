@@ -7,7 +7,7 @@
         </header>
         <div class="content">
           {% assign bio = site.data.records[page.rec_id].interviewee %}
-          <b>Name:</b> {{ r.name }}
+          <b>Name:</b> {{ bio.name }}
 
           {% if bio.birthplace %}
           <b>Birthplace</b>: {{ bio.birthplace }}
