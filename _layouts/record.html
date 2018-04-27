@@ -6,12 +6,14 @@
           {% if page.description %}<p class="description">{{page.description}}</p>{% endif %}
         </header>
         <div class="content">
+          <ul class="bio">
           {% assign bio = site.data.records[page.rec_id].interviewee %}
-          <b>Name:</b> {{ bio.name }}
+            <li><b>Name:</b> {{ bio.name }}</li>
 
           {% if bio.birthplace %}
-          <b>Birthplace</b>: {{ bio.birthplace }}
+            <li><b>Birthplace</b>: {{ bio.birthplace }}</li>
           {% endif %}
+          </ul>
 
           {% assign recording = site.data.records[page.rec_id].recording %}
 
