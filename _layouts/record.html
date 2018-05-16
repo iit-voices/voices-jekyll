@@ -17,7 +17,7 @@
 
             {% assign recording = site.data.records[page.rec_id].recording %}
 
-          <audio src="/assets/mp3/{{ recording.audio.file}}" controls="controls"></audio>
+          <audio id="audio" src="/assets/mp3/{{ recording.audio.file}}" controls="controls"></audio>
 
           <section class="recording">
             {% assign transcript = recording.transcript %}
