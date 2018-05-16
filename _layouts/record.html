@@ -15,29 +15,35 @@
           {% endif %}
           </ul>
 
-          {% assign recording = site.data.records[page.rec_id].recording %}
+            {% assign recording = site.data.records[page.rec_id].recording %}
 
           <audio src="/assets/mp3/{{ recording.audio.file}}" controls="controls"></audio>
 
-          {% assign transcript = recording.transcript %}
-          {% if transcript.interview %}
-            <h2>Transcript</h2>
-            <ol class="transcript" lang="{{transcript.language}}">
-            {% for line in transcript.interview %}
-              <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
-            {% endfor %}
-            </ol>
-          {% endif %}
+          <section class="recording">
+            {% assign transcript = recording.transcript %}
+            {% if transcript.interview %}
+            <article id="transcript">
+              <h2>Transcript</h2>
+              <ol class="transcript" lang="{{transcript.language}}">
+              {% for line in transcript.interview %}
+                <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
+              {% endfor %}
+              </ol>
+            </article>
+            {% endif %}
 
-          {% assign translation = recording.translation %}
-          {% if translation.interview %}
-            <h2>Translation</h2>
-            <ol class="translation" lang="{{translation.language}}">
-            {% for line in translation.interview %}
-              <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
-            {% endfor %}
-            </ol>
-          {% endif %}
+            {% assign translation = recording.translation %}
+            {% if translation.interview %}
+            <article id="translation">
+              <h2>Translation</h2>
+              <ol class="translation" lang="{{translation.language}}">
+              {% for line in translation.interview %}
+                <li data-start="{{line.start.sec}}" data-end="{{line.end.sec}}"><b>{{line.who}}:</b> <p>{{ line.u }}</p></li>
+              {% endfor %}
+              </ol>
+            </article>
+            {% endif %}
+          </section>
 
         </div>
       </article>
