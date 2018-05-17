@@ -13,6 +13,7 @@ audio.on('play', function() {
   var ts = $('#transcript li').first();
 
   audio.on('timeupdate', function() {
+    // TODO: DRY this up, big time; but mind the outer variable scope
     tl.find('p').addClass('highlight');
     ts.find('p').addClass('highlight');
     if (tl.data('end') < audio[0].currentTime) {
@@ -27,3 +28,7 @@ audio.on('play', function() {
     }
   });
 });
+
+// TODO: Transcript seek function that finds the current line matched to audio.
+// It should work no matter how the audio plays or seeks to a given marker. Start
+// by just writing a function and entering an arbitrary integer value.
