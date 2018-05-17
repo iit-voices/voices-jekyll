@@ -7,10 +7,17 @@ $('.recording').on('click', 'li', function(){
 });
 
 // TODO: Throttle this to 15fps or so
-// TODO: Handle a starting point when navigating from text, or seeking
 audio.on('play', function() {
-  var tl = $('#translation li').first();
-  var ts = $('#transcript li').first();
+  var startTime = audio[0].currentTime;
+  var firstTimestamp = Number($('.recording li').first().data('start'));
+  // Treat the first timestamp as the start if it's greater than the curretTime,
+  // which is almost always the case when the audio starts at 0:00
+  if (firstTimestamp > startTime) {
+    startTime = firstTimestamp;
+  }
+
+  var tl = startingLine(startTime, '#translation');
+  var ts = startingLine(startTime, '#transcript');
 
   audio.on('timeupdate', function() {
     // TODO: DRY this up, big time; but mind the outer variable scope
@@ -27,6 +34,7 @@ audio.on('play', function() {
       ts.find('p').addClass('highlight');
     }
   });
+
 });
 
 function startingLine(time,selector) {
