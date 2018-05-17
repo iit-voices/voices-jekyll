@@ -3,3 +3,12 @@
   display: grid;
   grid: auto-flow / 1fr 1fr;
 }
+
+li p {
+  background: white;
+  transition: background .2s;
+}
+li p.highlight {
+  background: yellow;
+  transition: background .2s;
+}
