@@ -8,14 +8,21 @@ $('.recording').on('click', 'li', function(){
 
 // TODO: Throttle this to 15fps or so
 audio.on('play', function() {
-  var trans = $('#transcript li');
-  var current = trans.first();
+  var tl = $('#translation li').first();
+  var ts = $('#transcript li').first();
+
   audio.on('timeupdate', function() {
-    current.find('p').addClass('highlight');
-    if (current.data('end') < audio[0].currentTime) {
-      current.find('p').removeClass('highlight');
-      current = current.next();
-      current.find('p').addClass('highlight');
+    tl.find('p').addClass('highlight');
+    ts.find('p').addClass('highlight');
+    if (tl.data('end') < audio[0].currentTime) {
+      tl.find('p').removeClass('highlight');
+      tl = tl.next();
+      tl.find('p').addClass('highlight');
+    }
+    if (ts.data('end') < audio[0].currentTime) {
+      ts.find('p').removeClass('highlight');
+      ts = ts.next();
+      ts.find('p').addClass('highlight');
     }
   });
 });
