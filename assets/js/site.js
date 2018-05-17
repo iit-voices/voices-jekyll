@@ -1,12 +1,18 @@
 var audio = $('#audio');
 
 $('.recording').on('click', 'li', function(){
+  audio[0].pause();
   console.log('Clicked!', $(this).data('start'));
   audio[0].currentTime = $(this).data('start');
   audio[0].play();
 });
 
+audio.on('pause', function() {
+  $('.recording p').removeClass('highlight');
+})
+
 // TODO: Throttle this to 15fps or so
+// BUG: Transcript highlighting does not work as expected when audio is already playing
 audio.on('play', function() {
   var startTime = audio[0].currentTime;
   var firstTimestamp = Number($('.recording li').first().data('start'));
