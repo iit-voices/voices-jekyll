@@ -29,6 +29,15 @@ audio.on('play', function() {
   });
 });
 
-// TODO: Transcript seek function that finds the current line matched to audio.
-// It should work no matter how the audio plays or seeks to a given marker. Start
-// by just writing a function and entering an arbitrary integer value.
+function startingLine(time,selector) {
+  var line;
+  time = Number(time);
+  $(selector + " li").each(function() {
+    if (Number(($(this).data('start')) <= time) && (Number($(this).data('end')) > time)) {
+      console.log("Found one!", $(this).data('start'));
+      line = $(this);
+      return false;
+    }
+  });
+  return line;
+}
