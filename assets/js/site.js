@@ -7,6 +7,7 @@ $('.recording').on('click', 'li', function(){
 });
 
 // TODO: Throttle this to 15fps or so
+// TODO: Handle a starting point when navigating from text, or seeking
 audio.on('play', function() {
   var tl = $('#translation li').first();
   var ts = $('#transcript li').first();
