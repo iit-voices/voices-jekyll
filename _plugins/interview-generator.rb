@@ -9,7 +9,7 @@ Dir.glob(records).each do |file|
 
 md = <<-EOT
 ---
-title: #{record["interviewee"]["name"]}
+title: "#{record["interviewee"]["name"]}"
 rec_id: #{record["interviewee"]["identifier"]}
 layout: record
 ---
