@@ -1,5 +1,7 @@
 require 'yaml'
 
+puts "Generating skeletal Markdown files..."
+
 records = "#{Dir.getwd}/_data/records/*.yml"
 
 Dir.glob(records).each do |file|
