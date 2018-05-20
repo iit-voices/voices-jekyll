@@ -7,7 +7,7 @@ title: Interviews
   <ul>
     {% for interviewee in site.data.records %}
     <li>
-      <b class="name">{{ interviewee[1].interviewee.name }}</b>
+      <a href="{{ interviewee[1].interviewee.identifier }}/">{{ interviewee[1].interviewee.name }}</a>
     </li>
     {% else %}
     Collection is empty
